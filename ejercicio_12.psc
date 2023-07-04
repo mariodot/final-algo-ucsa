@@ -1,4 +1,4 @@
-Algoritmo ejercicio_13
+Algoritmo ejercicio_12
 	Definir n, k, i Como Entero;
 	n = 0; k = 0; i = 0;
 	Imprimir "Producto del vector V por el valor K";

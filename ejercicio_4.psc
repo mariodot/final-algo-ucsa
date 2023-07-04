@@ -12,8 +12,7 @@ Algoritmo ejercicio_4
 	FinPara
 	
 	Para i = 1 Hasta 5 Con Paso 1
-		// Limitación de PSeInt, MOD no acepta valores no enteros
-		Si(v1[i] MOD 1 = 0)
+		Si((v1[i] - trunc(v1[i])) = 0)
 			suma_e = suma_e + v1[i];
 			
 			Si(v1[i] > 0)
@@ -26,8 +25,7 @@ Algoritmo ejercicio_4
 			
 		FinSi
 		
-		// Limitación de PSeInt, MOD no acepta valores no enteros 
-		Si(v1[i] MOD 1 <> 0)
+		Si((v1[i] - trunc(v1[i])) <> 0)
 			suma_d = suma_d + v1[i];
 		FinSi
 	FinPara
