@@ -1,17 +1,19 @@
 Algoritmo ejercicio_4
-	Definir i, suma_e, suma_p, suma_n Como Entero;
+	Definir i, suma_e, suma_p, suma_n, n Como Entero;
 	Definir suma_d Como Real;
-	suma_e = 0; suma_d = 0; suma_p = 0; suma_n = 0;
+	suma_e = 0; suma_d = 0; suma_p = 0; suma_n = 0; n = 0;
 	
 	Imprimir "Suma de números enteros, decimales, positivos y negativos";
-	Dimension v1[5];
+	Imprimir "Ingrese la dimensión del arreglo";
+	Leer n;
+	Dimension v1[n];
 	
-	Para i = 1 Hasta 5 Con Paso 1
+	Para i = 1 Hasta n Con Paso 1
 		Imprimir "Ingrese el valor ", i;
 		Leer v1[i];
 	FinPara
 	
-	Para i = 1 Hasta 5 Con Paso 1
+	Para i = 1 Hasta n Con Paso 1
 		Si((v1[i] - trunc(v1[i])) = 0)
 			suma_e = suma_e + v1[i];
 			
@@ -20,7 +22,7 @@ Algoritmo ejercicio_4
 			FinSi
 			
 			Si(v1[i] < 0)
-				suma_n = suma_p + v1[i];
+				suma_n = suma_n + v1[i];
 			FinSi
 			
 		FinSi

@@ -1,5 +1,4 @@
 Algoritmo ejercicio_7
-	// Consultar con Prof. Ivo
 	Definir n Como Real;
 	Definir i, max_pos Como Entero;
 	i = 0; n = 0; max_pos = 1;

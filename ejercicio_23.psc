@@ -4,9 +4,7 @@ Algoritmo ejercicio_23
 	Imprimir "Matriz cuadrada de orden N";
 	Imprimir "Ingresar tamaño de la matriz cuadrada";
 	Leer n;
-	
 	Dimension mt[n, n];
-	
 	// Leer matriz
 	Para i = 1 Hasta n Con Paso 1
 		Para j = 1 Hasta n Con Paso 1
@@ -14,7 +12,6 @@ Algoritmo ejercicio_23
 			mt[i,j] = azar(10);
 		FinPara
 	FinPara
-	
 	Para i = 1 Hasta n Con Paso 1
 		Para j = 1 Hasta n Con Paso 1
 			Si(i = j)
@@ -28,7 +25,6 @@ Algoritmo ejercicio_23
 			FinSi
 		FinPara
 	FinPara
-	
 	// Imprimir Matriz
 	Imprimir "";
 	Para i = 1 Hasta n Con Paso 1
@@ -37,7 +33,6 @@ Algoritmo ejercicio_23
 		FinPara
 		Imprimir "";
 	FinPara
-	
 	Imprimir "Suma Diagonal: ", sum_dig;
 	Imprimir "Suma Inferior: ", sum_inf;
 	Imprimir "Suma Superior: ", sum_sup;

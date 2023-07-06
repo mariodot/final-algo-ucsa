@@ -6,11 +6,9 @@ Algoritmo ejercicio_24
 	Leer m;
 	Imprimir "Ingresar tamaño de las columnas: ";
 	Leer n;
-	
 	Dimension a[m, n];
 	Dimension b[m, n];
 	Dimension c[m, n];
-	
 	// Leer matriz a
 	Para i = 1 Hasta m Con Paso 1
 		Para j = 1 Hasta n Con Paso 1
@@ -18,7 +16,6 @@ Algoritmo ejercicio_24
 			a[i,j] = azar(10);
 		FinPara
 	FinPara
-	
 	// Leer matriz b
 	Para i = 1 Hasta m Con Paso 1
 		Para j = 1 Hasta n Con Paso 1
@@ -26,14 +23,12 @@ Algoritmo ejercicio_24
 			b[i,j] = azar(10);
 		FinPara
 	FinPara
-	
 	// sumar a + b = c
 	Para i = 1 Hasta m Con Paso 1
 		Para j = 1 Hasta n Con Paso 1
 			c[i, j] = a[i, j] + b[i, j];
 		FinPara
 	FinPara
-	
 	// Imprimir Matriz c
 	Imprimir "--- Matriz c ---";
 	Para i = 1 Hasta m Con Paso 1

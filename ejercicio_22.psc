@@ -4,9 +4,7 @@ Algoritmo ejercicio_22
 	Imprimir "Matriz cuadrada de orden N";
 	Imprimir "Ingresar tamaño de la matriz cuadrada";
 	Leer n;
-	
 	Dimension mt[n, n];
-	
 	// Leer matriz
 	Para i = 1 Hasta n Con Paso 1
 		Para j = 1 Hasta n Con Paso 1
@@ -14,7 +12,6 @@ Algoritmo ejercicio_22
 			mt[i,j] = azar(10);
 		FinPara
 	FinPara
-	
 	// Imprimir antes
 	Imprimir "--- Antes ---";
 	Para i = 1 Hasta n Con Paso 1
@@ -23,7 +20,6 @@ Algoritmo ejercicio_22
 		FinPara
 		Imprimir "";
 	FinPara
-	
 	// Generar matriz triangular inferior
 	Para i = 1 Hasta n Con Paso 1
 		Para j = 1 Hasta n Con Paso 1
@@ -32,7 +28,6 @@ Algoritmo ejercicio_22
 			FinSi
 		FinPara
 	FinPara
-	
 	// Imprimir despues
 	Imprimir "";
 	Imprimir "--- Después ---";
@@ -42,5 +37,4 @@ Algoritmo ejercicio_22
 		FinPara
 		Imprimir "";
 	FinPara
-	
 FinAlgoritmo

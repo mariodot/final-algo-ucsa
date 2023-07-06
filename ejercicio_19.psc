@@ -7,9 +7,7 @@ Algoritmo ejercicio_19
 	Leer p;
 	Imprimir "Ingrese las columnas de la matriz: ";
 	Leer q;
-	
 	Dimension m[p,q];
-	
 	// Leer matriz
 	Para i = 1 Hasta p Con Paso 1
 		Para j = 1 Hasta q Con Paso 1
@@ -17,7 +15,6 @@ Algoritmo ejercicio_19
 			Leer m[i,j];
 		FinPara
 	FinPara
-	
 	// Recorrer matriz
 	Para i = 1 Hasta p Con Paso 1
 		Para j = 1 Hasta q Con Paso 1
@@ -30,7 +27,6 @@ Algoritmo ejercicio_19
 			FinSi
 		FinPara
 	FinPara
-	
 	prom_par = suma_par / cont_par;
 	prom_impar = suma_impar / cont_impar;
 	
@@ -39,5 +35,4 @@ Algoritmo ejercicio_19
 	
 	Imprimir "La suma impar es: ", suma_impar;
 	Imprimir "El promedio impar es: ", prom_impar;
-	
 FinAlgoritmo
